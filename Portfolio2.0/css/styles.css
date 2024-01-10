@@ -341,9 +341,9 @@ section#contatos img{
     height: 100vh;
   }
 }
-
+/* 
 /* tela pequena */
-@media (max-width: 400px){
+/* @media (max-width: 400px){
   .navbar .logo{
     margin-left: 0;
   }
@@ -392,5 +392,4 @@ section#contatos img{
   section#contatos{
     height: 110vh;
   }
-}
-
+} */ */

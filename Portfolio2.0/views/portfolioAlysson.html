@@ -112,12 +112,13 @@
       : 'fa-solid fa-bars'
     }
 
-    const menuItems = document.querySelectorAll('a');
+    // ===== SCROLL ===== \\ 
+    // função para definir quais itens irão reagir ao scroll, fazendo funcionar links externos
+    const menuItems = document.querySelectorAll('.itens, .dropdown_menu');
     menuItems.forEach(item => {
       item.addEventListener('click', scrollToIdOnClick)
     })
 
-    // ===== SCROLL ===== \\ 
     // função para pegar a referência do item e fazer o offsetTop
     function getScrollTopByHref(element){
       const id = element.getAttribute('href');
