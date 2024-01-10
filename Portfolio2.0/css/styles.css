@@ -1,0 +1,396 @@
+/* Projeto todo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* tirar marcações padrão da lista */
+li{
+  list-style: none;
+}
+
+/* estilização do texto da navbar */
+a{
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+a:hover{
+  color: orange;
+  transition: color .3s;
+}
+
+/* largura e posição */
+header{
+  position: relative;
+  width: 100%;
+}
+
+/* estilização da div do <navbar> */
+.navbar{
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  z-index: 100;
+}
+
+/* estilização da div <logo> dentro de <navbar> */
+.navbar .logo{
+  display: flex;
+  margin-left: 40px;
+  align-items: center;
+  text-align: center;
+}
+
+/* hover para quando passar o mouse na <img> da logo aplicar ao texto em conjunto */
+.navbar .logo:hover a{
+  color: orange;
+  transition: color .3s;
+}
+.navbar .logo a {
+  font-size: 1.5rem;
+  gap: 3rem;
+  margin-left: 10px;
+}
+
+/* estilização da imagem logo */
+.navbar .logo img{
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: orange;
+  padding: 3%;
+}
+
+/* estilizando espaçamento dos itens na navbar */
+.navbar .itens{
+  display: flex;
+  gap: 3rem;
+  margin-right: 80px;
+}
+
+/* estilizando botão que será utilizado na responsividade*/
+.navbar .toggle_btn{
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: inline;
+  position: fixed;
+  z-index: 100;
+  margin-left: 90%;
+  display: none;
+}
+.navbar .toggle_btn:hover{
+  color: orange;
+}
+
+/* DROPDOWN */
+.dropdown_menu{
+  display: none;
+  position: absolute;
+  top: 80px;
+  height: 0;
+  width: 100vh;
+  background-color: white;
+  overflow: hidden;
+  /* transição para animação do dropdown */
+  transition: .21s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: fixed;
+  /* deixar o dropdown na frente de outros elementos na camada 100, os outros elementos vem por padrão na camada 0 */
+  z-index: 100;
+  margin-right: 30px;
+}
+.dropdown_menu.open{
+  height: 165px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+.dropdown_menu li{
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* BUTTONS */
+main .btn{
+  background-color: orange;
+  color: white;
+  padding: 1.5rem 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  border-radius: 5px;
+}
+main .btn:hover{
+  background-color: hsl(39, 100%, 45%);
+  transition: .3s;
+}
+
+/* MAIN */
+/* estilizando as tags <h> para utilização padronizada */
+main h1{
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  color: #111;
+}
+main h2{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+main h3{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+  margin-left: 20px;
+}
+main p{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #444;
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+/* linhas para titulos */
+.horizontal_line{
+  height: 3px; 
+  width: 300px; 
+  background-color: orange; 
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+/* HOME */
+section#home {
+  /* calculo da altura dependendo do tamanho da tela */
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+main #home p{
+  color: #555;
+}
+
+/* SOBRE */
+section#sobre {
+  height: calc(100vh - 60px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.skills{
+  height: 33vh;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 100px;
+  text-align: start;
+  gap: 5rem;
+}
+/* SOFTSKILLS */
+.soft{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+.softskills{
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #444;
+  display: flex;
+}
+
+/* HARDSKILLS */
+.hard{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+.hardskills{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.hardskills p{
+  font-size: 1.3rem;
+  color: #444;
+}
+
+/* PROJETOS */
+section#projetos {
+  height: calc(100vh - 30px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.projetos{
+  height: 21vh;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 100px;
+  text-align: start;
+  gap: 5rem;
+}
+/* SOFTSKILLS */
+.description{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+.softskills{
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #444;
+  display: flex;
+}
+
+/* HARDSKILLS */
+.hard{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+.hardskills{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.hardskills p{
+  font-size: 1.3rem;
+  color: #444;
+}
+
+/* CONTATOS */
+section#contatos {
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+section#contatos img{
+  width: 50px;
+  margin: 10px;
+}
+
+/* RESPONSIVIDADE */
+/* tela média */
+@media (max-width: 992px){
+  .navbar .itens{
+    display: none;
+  }
+  .navbar .toggle_btn{
+    display: block;
+  }
+  .dropdown_menu{
+    display: block;
+  }
+
+  section#home{
+    height: 100vh;
+  }
+
+  section#sobre{
+    height: 115vh;
+  }
+  section#sobre .skills{
+    margin-top: 0;
+    gap: 0;
+    grid-template-columns: 1fr;
+    margin-bottom: 300px;
+  }
+
+  section#projetos{
+    height: 85vh;
+  }
+  section#projetos .projetos{
+    grid-template-columns: 1fr;
+    gap: 0;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+  }
+
+  section#contatos{
+    height: 100vh;
+  }
+}
+
+/* tela pequena */
+@media (max-width: 400px){
+  .navbar .logo{
+    margin-left: 0;
+  }
+  .navbar .itens{
+    display: none;
+  }
+  .navbar .toggle_btn{
+    display: block;
+  }
+  .dropdown_menu{
+    display: block;
+  }
+  section h1{
+    font-size: 2rem;
+  }
+  section h2{
+    font-size: 1.8rem;
+  }
+  section p{
+    font-size: 1.3rem;
+  }
+  main{
+    overflow: hidden;
+  }
+  section#home{
+    height: 120vh;
+  }
+
+  section#sobre{
+    height: 200vh;
+  }
+  section#sobre .skills{
+    margin-top: 0;
+    gap: 0;
+    grid-template-columns: 1fr;
+    margin-bottom: 110vh;
+  }
+  section#sobre .hardskills{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  section#projetos{
+    height: 110vh;
+  }
+
+  section#contatos{
+    height: 110vh;
+  }
+}
+
