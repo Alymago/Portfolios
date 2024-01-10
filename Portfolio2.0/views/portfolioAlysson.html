@@ -93,7 +93,7 @@
         <a href="https://br.linkedin.com/in/alysson-godoy-a385b1174">
             <img src="../img/linkedin.png" alt=""></a>
         <a href="https://github.com/alymago"><img src="../img/github.png" alt=""></a>
-        <a href="//instagram.com/alysson.2000" class="img">
+        <a href="https://instagram.com/alysson.2000" class="img">
             <img src="../img/instagram.png" alt="logo instragram">
         </a>
       </div>
@@ -122,7 +122,7 @@
     // ===== SCROLL ===== \\ 
     // função para pegar a referência do item e fazer o offsetTop
     function getScrollTopByHref(element){
-      const id = element.getAttribute('href=#');
+      const id = element.getAttribute();
       return document.querySelector(id).offsetTop;
     }
 
