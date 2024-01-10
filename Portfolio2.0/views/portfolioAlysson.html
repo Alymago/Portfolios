@@ -122,7 +122,7 @@
     // ===== SCROLL ===== \\ 
     // função para pegar a referência do item e fazer o offsetTop
     function getScrollTopByHref(element){
-      const id = element.getAttribute();
+      const id = element.getAttribute('href');
       return document.querySelector(id).offsetTop;
     }
 
