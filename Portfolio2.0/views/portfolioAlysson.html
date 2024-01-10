@@ -64,7 +64,6 @@
               <div><p>HTML</p></div>
               <div><p>CSS</p></div>
               <div><p>JavaScript</p></div>
-              <div><p>Responsividade</p></div>
             </div>
           </div>
       </div>
@@ -116,7 +115,7 @@
 
     // ===== SCROLL ===== \\ 
     // função para definir quais itens irão reagir ao scroll, fazendo funcionar links externos
-    const menuItems = document.querySelectorAll('.itens, .dropdown_menu');
+    const menuItems = document.querySelectorAll('.itens, .dropdown_menu, .btn');
     menuItems.forEach(item => {
       item.addEventListener('click', scrollToIdOnClick)
     })
@@ -137,7 +136,7 @@
     // função para fazer o scroll suave com smooth
     function scrollToPosition(to){
       window.scroll({
-        top: to,
+        top: to -80,
         behavior:"smooth",
       });
     }

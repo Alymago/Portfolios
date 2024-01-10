@@ -341,9 +341,9 @@ section#contatos img{
     height: 100vh;
   }
 }
-/* 
+
 /* tela pequena */
-/* @media (max-width: 400px){
+@media (max-width: 400px){
   .navbar .logo{
     margin-left: 0;
   }
@@ -369,7 +369,7 @@ section#contatos img{
     overflow: hidden;
   }
   section#home{
-    height: 120vh;
+    height: 100vh;
   }
 
   section#sobre{
@@ -386,10 +386,11 @@ section#contatos img{
   }
 
   section#projetos{
-    height: 110vh;
+    height: 80vh;
+    margin-bottom: 33vh;
   }
 
   section#contatos{
-    height: 110vh;
+    height: 100vh;
   }
-} */ */
+}
