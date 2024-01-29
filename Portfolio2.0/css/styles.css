@@ -380,7 +380,7 @@ section#contatos img{
     margin-top: 0;
     gap: 0;
     grid-template-columns: 1fr;
-    margin-bottom: 110vh;
+    margin-bottom: 100vh;
   }
   section#sobre .hardskills{
     grid-template-columns: 1fr 1fr;
@@ -394,7 +394,7 @@ section#contatos img{
     gap: 0;
     text-align: center;
     margin-top: 5vh;
-    margin-bottom: 40vh;
+    margin-bottom: 45vh;
   }
 
   section#contatos{
