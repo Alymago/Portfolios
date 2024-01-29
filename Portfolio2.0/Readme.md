@@ -1,6 +1,6 @@
 # Sobre o projeto
 
-https://alymago.github.io/Portfolios/Portfolio2.0/views/portfolioAlysson.html)
+https://alymago.github.io/Portfolios/Portfolio2.0/views/portfolioAlysson.html
 
 O Portfolio 2.0 é meu segundo portfolio, possui informações sobre minha pessoa, projetos desenvolvidos, habilidades e meios de comunicação. Esta representação constitui o meu conhecimento mais recente.
 
