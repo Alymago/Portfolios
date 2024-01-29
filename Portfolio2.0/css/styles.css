@@ -369,11 +369,11 @@ section#contatos img{
     overflow: hidden;
   }
   section#home{
-    height: 110vh;
+    height: 100vh;
   }
 
   section#sobre{
-    height: 170vh;
+    height: 160vh;
   }
   section#sobre .skills{
     margin-top: 0;
@@ -386,7 +386,7 @@ section#contatos img{
   }
 
   section#projetos{
-    height: 80vh;  
+    height: 70vh;  
   }
   section#projetos .projetos{
     grid-template-columns: 1fr;
