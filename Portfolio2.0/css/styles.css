@@ -300,6 +300,48 @@ section#contatos img{
 }
 
 /* RESPONSIVIDADE */
+/* tela média */
+@media (max-width: 992px){
+  .navbar .itens{
+    display: none;
+  }
+  .navbar .toggle_btn{
+    display: block;
+  }
+  .dropdown_menu{
+    display: block;
+  }
+
+  section#home{
+    height: 100vh;
+  }
+
+  section#sobre{
+    height: 115vh;
+  }
+  section#sobre .skills{
+    margin-top: 0;
+    gap: 0;
+    grid-template-columns: 1fr;
+    margin-bottom: 300px;
+  }
+
+  section#projetos{
+    height: 85vh;
+  }
+  section#projetos .projetos{
+    grid-template-columns: 1fr;
+    gap: 0;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+  }
+
+  section#contatos{
+    height: 100vh;
+  }
+}
+
 /* tela pequena */
 @media (max-width: 992px){
   .navbar .logo{
@@ -327,11 +369,11 @@ section#contatos img{
     overflow: hidden;
   }
   section#home{
-    height: 120vh;
+    height: 110vh;
   }
 
   section#sobre{
-    height: 180vh;
+    height: 170vh;
   }
   section#sobre .skills{
     margin-top: 0;
@@ -344,10 +386,17 @@ section#contatos img{
   }
 
   section#projetos{
-    height: 90vh;
+    height: 80vh;  
+  }
+  section#projetos .projetos{
+    grid-template-columns: 1fr;
+    gap: 0;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
   }
 
   section#contatos{
-    height: 130vh;
+    height: 120vh;
   }
 }
