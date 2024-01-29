@@ -1,0 +1,1 @@
+Portfólios representa a junção de todos os portfólios que elaborei. Optei por reunir todos eles em um único repositório, para proporcionar uma visão analitica do meu progresso e dos conhecimentos adquiridos.
