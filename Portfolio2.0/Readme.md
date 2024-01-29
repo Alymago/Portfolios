@@ -11,7 +11,7 @@ O Portfolio 2.0 é meu segundo portfolio, possui informações sobre minha pesso
 ![Web 1](https://github.com/Alymago/Portfolios/blob/main/Portfolio2.0/img/desktop.png)
 
 # Tecnologias utilizadas 
-- HTML / CSS / JAVASCRIPT
+- HTML / CSS / JavaScript
 
 # Implementação em produção
 - GitHub Pages
