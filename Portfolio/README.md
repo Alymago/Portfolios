@@ -18,5 +18,5 @@ Portfolio é uma apresentação que inclui informações sobre mim, projetos que
 
 # Autor
 
-Alysson Manoel Godoy
-https://www.linkedin.com/in/Alymago
+Alysson Manoel Godoy <br>
+https://www.linkedin.com/in/alysson-godoy-a385b1174/
