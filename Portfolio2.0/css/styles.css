@@ -387,7 +387,7 @@ section#contatos img{
   }
 
   section#projetos{
-    height: 100vh;  
+    height: 110vh;  
   }
   section#projetos .projetos{
     grid-template-columns: 1fr;
