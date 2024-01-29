@@ -12,7 +12,7 @@
   <header>
     <div class="navbar">
       <div class="logo">
-        <a class="img" href="#sobre">
+        <a class="img" href="#home">
           <img src="../img/logo.jpg" alt="imagem logo" >
         </a>
         <a href="#home">Alysson Godoy</a>
@@ -115,7 +115,7 @@
 
     // ===== SCROLL ===== \\ 
     // função para definir quais itens irão reagir ao scroll, fazendo funcionar links externos
-    const menuItems = document.querySelectorAll('.itens, .dropdown_menu, .btn');
+    const menuItems = document.querySelectorAll('.navbar, .itens, .dropdown_menu, .btn');
     menuItems.forEach(item => {
       item.addEventListener('click', scrollToIdOnClick)
     })
