@@ -369,7 +369,7 @@ section#contatos img{
     overflow: hidden;
   }
   section#home{
-    height: 70vh;
+    height: 100vh;
   }
 
   section#sobre{
@@ -390,6 +390,6 @@ section#contatos img{
   }
 
   section#contatos{
-    height: 121vh;
+    height: 120vh;
   }
 }
