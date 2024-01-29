@@ -19,4 +19,4 @@ O Portfolio 2.0 é meu segundo portfolio, possui informações sobre minha pesso
 # Autor
 
 Alysson Manoel Godoy <br>
-https://www.linkedin.com/in/Alymago
+https://www.linkedin.com/in/alysson-godoy-a385b1174/
