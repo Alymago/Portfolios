@@ -373,7 +373,7 @@ section#contatos img{
   }
 
   section#sobre{
-    height: 150vh;
+    height: 170vh;
   }
   section#sobre .skills{
     margin-top: 0;
@@ -386,10 +386,10 @@ section#contatos img{
   }
 
   section#projetos{
-    height: 60vh;
+    height: 70vh;
   }
 
   section#contatos{
-    height: 100vh;
+    height: 120vh;
   }
 }
